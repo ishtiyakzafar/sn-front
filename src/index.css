@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+@import url("https: //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+
+@import url("https: //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.sktable {
+  background-color: #ab966d;
+  font-size: 12px;
+  width: 70%;
+  margin: 20px;
+}
+
+.shan1 {
+  background-color: greenyellow;
+  color: black;
+}
+
+.skbody {
+  background-color: papayawhip;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ab966d;
+  font-size: 16px;
+
+}
+
+a:visited {
+  color: #ab966d;
+}
+
+a:link.BDlinks {
+  text-decoration: none;
+  color: #e08235;
+  font-size: 19px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: "300"
+
+}
+
+a:visited.BDlinks {
+    text-decoration: none;
+      color: #e08235;
+      font-size: 19px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: "300"
+
+}
+
+/*selector*/
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 30px !important;
+}
+
+h6 {
+  font-size: 25px !important;
+}
+
+.botmLabels {
+  font-size: 12px;
+  color: pink !important;
+}
+
+/* data visualizations */
+.chart-container {
+  padding: 10px;    
+  max-width: 2000px;  
+}
+
+.donut {
+margin-left: 10px;
+display: inline-block;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.years {
+  background-color: rgb(180, 180, 180, 0.2);
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*layout*/
+
+.single {
+  max-width: 1000px;
+
+}
+
+.image-row img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  background-color: #0f141e;
+  border-radius: 25px;
+}
+
+/*Cards*/
+.white-box {
+  background-color: white;
+  border: 1px solid black;
+
+  padding: 12px;
+  max-width: 325px;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+
+.white-box2 {
+  background-color: white;
+  border: 1px solid black;
+
+  padding: 12px;
+  max-width: 325px;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+
+.rowCard {
+  margin-left: 10px;
+}
+
+.columnCard {
+  flex: 1;
+  color: black;
+  font-size: 17px;
+  /* background-color: green; */
+}
+
+.columnCard2 {
+  flex: 1;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 10px;
+} 
+
+.two-column {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: 650px;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+/* component specific */
+
+.dz {
+  margin-left: 20px;;
+}
+
+td {
+  padding-left: 20px;
+}
+
+.BDsteps {
+  list-style: none;
+  font-size: 20px;
+}
+
+.BDlinks {
+  list-style: none;
+  font-size: 20px;
+}
+
+.Shannon {
+  color: white;
+  background-color: pink;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 20px solid #860c0c !important;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 20px solid #860c0c !important;
+}
+
+.carousel .control-dots {
+  background-color: gray;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  h3 {
+    font-size: 25px !important;
+  }
+
+  h5 {
+    font-size: 25px !important;
+  }
+
+  h6 {
+    font-size: 20px !important;
+  }
+
+  .white-box {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    max-width: 150px;
+  }
+
+  .columnCard {
+    font-size: 14px;
+  }
+
+  .columnCard2 {
+    font-size: 18px;
+  }
+  .twoColumn {
+    max-width: 150px;
+  }
+
+}
